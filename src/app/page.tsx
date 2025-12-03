@@ -52,6 +52,133 @@ export default function Home() {
             </div>
           </div>
         </section>
+
+        {/* Featured Projects */}
+        <section className="section-padding">
+          <div className="container-custom">
+            <div className="max-w-5xl mx-auto">
+              <h2 className="text-3xl font-bold mb-8">Featured Projects</h2>
+              <div className="grid md:grid-cols-2 gap-6">
+                {/* Barbershop System */}
+                <Link href="/projects/barbershop-system" className="card group hover:border-primary/50 transition-all">
+                  <div className="mb-4">
+                    <span className="text-primary text-sm font-medium">Production System</span>
+                  </div>
+                  <h3 className="text-2xl font-bold mb-3 group-hover:text-primary transition-colors">
+                    Barbershop Management System
+                  </h3>
+                  <p className="text-text-secondary mb-4">
+                    Complete management platform handling scheduling, POS, inventory, and financial
+                    tracking. Reduced administrative time by 50% for the largest barbershop in town.
+                  </p>
+                  <div className="flex flex-wrap gap-2 mb-4">
+                    <span className="px-3 py-1 bg-background-light border border-border rounded text-xs">
+                      Django
+                    </span>
+                    <span className="px-3 py-1 bg-background-light border border-border rounded text-xs">
+                      Bootstrap
+                    </span>
+                    <span className="px-3 py-1 bg-background-light border border-border rounded text-xs">
+                      PostgreSQL
+                    </span>
+                  </div>
+                  <div className="text-primary text-sm font-medium">
+                    Read case study →
+                  </div>
+                </Link>
+
+                {/* Açaí Delivery */}
+                <Link href="/projects/acai-delivery" className="card group hover:border-primary/50 transition-all">
+                  <div className="mb-4">
+                    <span className="text-primary text-sm font-medium">Delivery Platform</span>
+                  </div>
+                  <h3 className="text-2xl font-bold mb-3 group-hover:text-primary transition-colors">
+                    Açaí Delivery System
+                  </h3>
+                  <p className="text-text-secondary mb-4">
+                    Custom delivery platform built for my mother's business, eliminating manual
+                    order taking and making her workday less physically demanding.
+                  </p>
+                  <div className="flex flex-wrap gap-2 mb-4">
+                    <span className="px-3 py-1 bg-background-light border border-border rounded text-xs">
+                      Django
+                    </span>
+                    <span className="px-3 py-1 bg-background-light border border-border rounded text-xs">
+                      JavaScript
+                    </span>
+                    <span className="px-3 py-1 bg-background-light border border-border rounded text-xs">
+                      Docker
+                    </span>
+                  </div>
+                  <div className="text-primary text-sm font-medium">
+                    Read case study →
+                  </div>
+                </Link>
+              </div>
+
+              <div className="mt-8 text-center">
+                <Link href="/projects" className="text-primary hover:text-primary-light font-medium">
+                  View all projects →
+                </Link>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Tech Stack Preview */}
+        <section className="section-padding bg-background-light/50">
+          <div className="container-custom">
+            <div className="max-w-4xl mx-auto text-center">
+              <h2 className="text-3xl font-bold mb-6">Tech Stack</h2>
+              <p className="text-lg text-text-secondary mb-8">
+                I work with proven technologies that solve real problems
+              </p>
+              <div className="flex flex-wrap justify-center gap-4">
+                <span className="px-4 py-2 bg-background border border-border rounded-lg">
+                  Python
+                </span>
+                <span className="px-4 py-2 bg-background border border-border rounded-lg">
+                  Django
+                </span>
+                <span className="px-4 py-2 bg-background border border-border rounded-lg">
+                  Bootstrap
+                </span>
+                <span className="px-4 py-2 bg-background border border-border rounded-lg">
+                  JavaScript
+                </span>
+                <span className="px-4 py-2 bg-background border border-border rounded-lg">
+                  PostgreSQL
+                </span>
+                <span className="px-4 py-2 bg-background border border-border rounded-lg">
+                  Docker
+                </span>
+              </div>
+              <div className="mt-8">
+                <Link href="/skills" className="btn-secondary">
+                  View Full Tech Stack
+                </Link>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* CTA Section */}
+        <section className="section-padding">
+          <div className="container-custom">
+            <div className="max-w-3xl mx-auto text-center">
+              <h2 className="text-3xl font-bold mb-4">
+                Let's build something that matters
+              </h2>
+              <p className="text-text-secondary text-lg mb-8">
+                I'm based in Ireland and open to remote opportunities. If you're looking for a
+                developer who builds systems that solve real operational problems, let's talk.
+              </p>
+              <Link href="/contact" className="btn-primary">
+                Get in Touch
+              </Link>
+            </div>
+          </div>
+        </section>
       </main>
       <Footer />
     </>
