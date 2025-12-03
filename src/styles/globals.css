@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background-dark;
+    background-image: linear-gradient(to bottom, #0a0a0f 0%, #050508 100%);
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply text-text-primary font-semibold;
+  }
+
+  h1 {
+    @apply text-4xl md:text-5xl lg:text-6xl;
+  }
+
+  h2 {
+    @apply text-3xl md:text-4xl lg:text-5xl;
+  }
+
+  h3 {
+    @apply text-2xl md:text-3xl;
+  }
+
+  p {
+    @apply text-text-secondary leading-relaxed;
+  }
+
+  a {
+    @apply text-primary hover:text-primary-light transition-colors;
+  }
+}
+
+@layer components {
+  .container-custom {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+
+  .section-padding {
+    @apply py-16 md:py-24 lg:py-32;
+  }
+
+  .card {
+    @apply bg-background-light border border-border rounded-lg p-6;
+  }
+
+  .btn-primary {
+    @apply bg-gradient-purple text-white px-6 py-3 rounded-lg font-medium hover:shadow-glow-md transition-all duration-300;
+  }
+
+  .btn-secondary {
+    @apply border border-border text-text-primary px-6 py-3 rounded-lg font-medium hover:border-primary hover:text-primary transition-all duration-300;
+  }
+}
