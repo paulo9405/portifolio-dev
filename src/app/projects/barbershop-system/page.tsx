@@ -389,8 +389,8 @@ export default function BarbershopSystemPage() {
 
               <div className="space-y-6 text-text-secondary text-lg">
                 <p>
-                  This was the most complex system I've built. Not because of the technology—Django,
-                  Bootstrap, and JavaScript are proven tools—but because of the business logic. A barbershop
+                  This was the most complex system I've built. Not because of the technology Django,
+                  Bootstrap, and JavaScript are proven tools but because of the business logic. A barbershop
                   has intricate workflows that aren't obvious until you watch people work.
                 </p>
 
