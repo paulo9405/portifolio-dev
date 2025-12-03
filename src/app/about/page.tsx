@@ -182,7 +182,7 @@ export default function AboutPage() {
 
               <div className="mt-8">
                 <a href="/contact" className="btn-primary inline-block">
-                  Get in Touch
+                  Get in Touch!!!
                 </a>
               </div>
             </div>
