@@ -37,10 +37,16 @@ export default function AcaiDeliveryPage() {
                   Django REST Framework
                 </span>
                 <span className="px-4 py-2 bg-background-light border border-border rounded-lg text-sm">
-                  React
+                  Bootstrap
+                </span>
+                <span className="px-4 py-2 bg-background-light border border-border rounded-lg text-sm">
+                  JavaScript
                 </span>
                 <span className="px-4 py-2 bg-background-light border border-border rounded-lg text-sm">
                   PostgreSQL
+                </span>
+                <span className="px-4 py-2 bg-background-light border border-border rounded-lg text-sm">
+                  Docker
                 </span>
               </div>
             </div>
@@ -173,13 +179,13 @@ export default function AcaiDeliveryPage() {
               <div className="space-y-6 text-text-secondary text-lg">
                 <p>
                   I chose a solid, proven stack: Django for the backend with Django REST Framework
-                  for the API, React for the frontend, and PostgreSQL for data persistence.
+                  for the API, Bootstrap and JavaScript for the frontend, and PostgreSQL for data persistence.
                 </p>
 
                 <p>
                   The architecture is straightforward—no over-engineering. A REST API handles all
-                  business logic, authentication, and data validation. The React frontend provides
-                  a clean interface that works on both mobile and desktop.
+                  business logic, authentication, and data validation. The Bootstrap and JavaScript frontend
+                  provides a clean interface that works on both mobile and desktop.
                 </p>
 
                 <div className="card">
@@ -196,7 +202,8 @@ export default function AcaiDeliveryPage() {
                     <div>
                       <div className="font-medium text-primary mb-2">Frontend</div>
                       <ul className="space-y-1">
-                        <li>• React</li>
+                        <li>• Bootstrap</li>
+                        <li>• JavaScript</li>
                         <li>• Responsive design</li>
                         <li>• Mobile-first approach</li>
                       </ul>

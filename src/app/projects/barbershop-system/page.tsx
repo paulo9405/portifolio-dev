@@ -38,10 +38,16 @@ export default function BarbershopSystemPage() {
                   Django REST Framework
                 </span>
                 <span className="px-4 py-2 bg-background-light border border-border rounded-lg text-sm">
-                  React
+                  Bootstrap
+                </span>
+                <span className="px-4 py-2 bg-background-light border border-border rounded-lg text-sm">
+                  JavaScript
                 </span>
                 <span className="px-4 py-2 bg-background-light border border-border rounded-lg text-sm">
                   PostgreSQL
+                </span>
+                <span className="px-4 py-2 bg-background-light border border-border rounded-lg text-sm">
+                  Docker
                 </span>
               </div>
             </div>
@@ -196,8 +202,8 @@ export default function BarbershopSystemPage() {
               <div className="space-y-6 text-text-secondary text-lg">
                 <p>
                   The system uses Django on the backend with Django REST Framework for the API layer.
-                  React powers the frontend, providing a responsive interface that works on desktops,
-                  tablets, and phones. PostgreSQL handles data persistence with proper relational
+                  Bootstrap and JavaScript power the frontend, providing a responsive interface that works
+                  on desktops, tablets, and phones. PostgreSQL handles data persistence with proper relational
                   design for customer records, appointments, sales, and inventory.
                 </p>
 
@@ -383,9 +389,9 @@ export default function BarbershopSystemPage() {
 
               <div className="space-y-6 text-text-secondary text-lg">
                 <p>
-                  This was the most complex system I've built. Not because of the technology Django
-                  and React are proven tools—but because of the business logic. A barbershop has
-                  intricate workflows that aren't obvious until you watch people work.
+                  This was the most complex system I've built. Not because of the technology—Django,
+                  Bootstrap, and JavaScript are proven tools—but because of the business logic. A barbershop
+                  has intricate workflows that aren't obvious until you watch people work.
                 </p>
 
                 <p>
