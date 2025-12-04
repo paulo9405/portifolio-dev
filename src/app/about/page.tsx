@@ -174,6 +174,10 @@ export default function AboutPage() {
                 </p>
 
                 <p>
+                  Outside of work and study, I try to keep balance. I train when I can gym, jiu-jitsu, and thoughtful conversations with friends. It helps me stay sharp for the next challenge.
+                </p>
+
+                <p>
                   I'm looking for opportunities where I can work on systems that matter. Backend-heavy
                   projects. Full-stack products. Teams that care about the people using their software,
                   not just shipping features. If you're building something real, I want to hear about it.
